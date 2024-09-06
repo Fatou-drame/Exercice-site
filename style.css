@@ -1,5 +1,6 @@
-body {
-    margin: 0px;
+* {
+    margin: 0;
+    padding: 0;
 }
 nav {
     width: 100%;
@@ -48,20 +49,23 @@ main .collection .table-ronde img {
     margin-left: 90px;
 
 }
-main  .table-mole img {
+main .section-2 .table-mole img {
     height: 200px;
     width: 300px;
     float: right;
 }
-main .section-2 {
-    margin-left: 90px;
+main .container-content {
+    width: 80%;
+    margin : auto;
 }
-main  .table-mole {
+main  .section-2 {
+    margin-top: 90px;
     clear: both;
 }
 main h3 {
     color: crimson;
     font-size: 30px;
+    margin-bottom: 30px;
 
 }
 main h4 {
